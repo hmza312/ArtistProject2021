@@ -1,27 +1,30 @@
-$padding:5%;
+$padding:3%;
 $color:black;
 $font-weight:700;
-$textsize:14px;
+$textsize:15px;
 $background-color:lightgrey;
 $margin-bottom:3%;
-h3 {
+.upcoming {
 	padding-top:$padding;
 	color: $color;
 	font-weight: $font-weight;
     margin-bottom: $margin-bottom;
 }
+.mt-2{
+    margin-top: 2%;
+}
 .link{
     padding-top:$padding;
 	color: $color;
 	font-weight: $font-weight;
-    margin-bottom: $margin-bottom;
+
 }
 .text{
     font-size: $textsize;
     font-weight: $font-weight;
 }
 
-.container {
+.main {
 
 	background-color:$background-color;
 	
