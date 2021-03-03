@@ -1,0 +1,29 @@
+$padding:5%;
+$color:black;
+$font-weight:700;
+$textsize:14px;
+$background-color:lightgrey;
+$margin-bottom:3%;
+h3 {
+	padding-top:$padding;
+	color: $color;
+	font-weight: $font-weight;
+    margin-bottom: $margin-bottom;
+}
+.link{
+    padding-top:$padding;
+	color: $color;
+	font-weight: $font-weight;
+    margin-bottom: $margin-bottom;
+}
+.text{
+    font-size: $textsize;
+    font-weight: $font-weight;
+}
+
+.container {
+
+	background-color:$background-color;
+	
+	padding: 2%;
+}
