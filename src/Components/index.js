@@ -39,7 +39,7 @@ class Index extends React.Component {
             </div>
           </div>
         </form>
-        {this.props.artist === {} ?
+        {this.props.artist === undefined ?
           <div></div>
           :
           <div>
