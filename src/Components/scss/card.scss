@@ -2,6 +2,10 @@ $width:330px;
 .card{
     width:$width
 }
+.card:hover{
+    cursor: pointer;
+    box-shadow: 0 16px 18px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
 @media screen and (max-width: 767px) {
     .card{
         width:auto
