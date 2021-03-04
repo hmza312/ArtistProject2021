@@ -41,8 +41,10 @@ class Index extends React.Component {
         {this.props.artist === {} ?
           <div></div>
           :
-          <h3 className='result'>1 Result Found for {this.props.artist.name}</h3>}
+          <div>
+          <h3 className='result'>1 Result Found for {this.props.artist.name}</h3>
         <ArtistDetails data={this.props.artist} />
+        </div>}
       </div>
 
     )
