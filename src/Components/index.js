@@ -15,6 +15,7 @@ class Index extends React.Component {
     store.dispatch(getArtist(this.state.artist_name))
   }
   render() {
+    console.log("Artist",this.props.artist)
     return (
       <div className="container">
         <form>
