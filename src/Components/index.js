@@ -23,7 +23,7 @@ class Index extends React.Component {
 
             <div className="input-field second-wrap">
               {
-                this.props.artist === {} ?
+                this.props.artist === null ?
                   <input id="search" type="text" placeholder="Enter Artist Name" onChange={this.SetArtist} />
                   :
                   <input id="search" type="text" placeholder="Enter Artist Name" defaultValue={this.props.artist.name} onChange={this.SetArtist} />
